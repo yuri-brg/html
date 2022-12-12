@@ -3,35 +3,72 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Barbearia Alura</title>
+		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
 	</head>
 
 	<body>
 		<header>
-			<h1 class="titulo-principal-teste1">Barbearia Alura</h1>
+			<div class="caixa">
+				<h1><img src="logo.png"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
-		<img id="banner" src="banner.jpg">
-		<div class="principal">
-			<h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
-	 
-			<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+		<img class="banner" src="banner.jpg">
 
-			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-		</div>
+		<main>
+			<section class="principal">
+				<h2 class="titulo-princial">Sobre a Barbearia Alura</h2>
 
-		<div class="beneficios">
-			<h3 class="titulo-centralizado">Benefícios</h3>
+				<img class="utensilios" src="utensilios.jpg" alt="utensilios de um barbeiro.">
+		
+				<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-			<ul>
-				<li class="itens">Atendimento aos Clientes</li>
-				<li class="itens">Espaço diferenciado</li>
-				<li class="itens">Localização</li>
-				<li class="itens">Profissionais Qualificados</li>
-			</ul>
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
-			<img src="beneficios.jpg" class="imagembeneficios">
-		</div>
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
+
+			<section class="mapa">
+				<h3 class="titulo-princial">Nosso estabelecimento</h3>
+				<p>Nosso estabelecimento está localizado no coração da cidade</p>
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d7500.525003009608!2d-43.95565832304415!3d-19.955459861682083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-19.9512486!2d-43.9449268!4m5!1s0xa69793fabe895b%3A0x28ac1140178fa4a3!2sTOTVS%20TOTVS%2C%20Edif%C3%ADcio%20Raja%20TOP%20-%20Av.%20Raja%20Gab%C3%A1glia%2C%202664%20-%20Estoril%2C%20Belo%20Horizonte%20-%20MG%2C%2030494-170!3m2!1d-19.959096799999998!2d-43.9576351!5e0!3m2!1spt-BR!2sbr!4v1670800407649!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+			</section>
+
+			<section class="beneficios">
+				<h3 class="titulo-princial">Benefícios</h3>
+
+				<ul>
+					<li class="itens">Atendimento aos Clientes</li>
+					<li class="itens">Espaço diferenciado</li>
+					<li class="itens">Localização</li>
+					<li class="itens">Profissionais Qualificados</li>
+				</ul>
+
+				<img src="beneficios.jpg" class="imagembeneficios">
+
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/IhwpxrObCd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<img src="logo-branco.png">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
+		
 	</body>
 </html>
